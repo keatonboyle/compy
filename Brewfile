@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 
+brew 'firebase-cli'
 brew 'npm'
 brew 'tmux'
 brew 'vim'
