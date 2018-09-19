@@ -11,6 +11,7 @@ or, for most GUI apps:
 
 ```
 cask '<program>'
+```
 
 ## Removing programs install via Homebrew
 Remove the appropriate line from Brewfile and run:
