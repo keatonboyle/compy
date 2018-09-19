@@ -1,1 +1,4 @@
 *.swp
+
+# Pathogen installs things here, we don't want to manage it.
+dotfiles/vim/node_modules
