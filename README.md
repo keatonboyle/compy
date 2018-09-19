@@ -1,5 +1,7 @@
 # compy
 
+# Homebrew
+
 ## Adding new programs installed via Homebrew
 Edit Brewfile, adding:
 
@@ -22,13 +24,15 @@ brew uninstall <program>
 brew cask uninstall <program>
 ```
 
+# Vim Plugins
+
 ## Adding new vim plugin
 
 ```bash
 git submodule add https://github.com/<user_name>/<repo_name> dotfiles/vim/bundle/<repo_name>
 ```
 
-# Removing a vim plugin
+## Removing a vim plugin
 ```bash
 git rm dotfiles/vim/bundle/<repo>
 ```
