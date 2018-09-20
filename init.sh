@@ -5,6 +5,11 @@ echo 'Initializing...'
 echo 'Linking dotfiles...'
 ./linkdotfiles.sh
 
+echo 'Installing submodules...'
+# TODO: I'm not sure this actually works.  Test me.
+git submodule update --init --recursive --rebase
+
+
 # TODO: automatically update submodules for vim packages.
 
 echo 'Setting defaults...'
