@@ -16,6 +16,7 @@ echo 'Setting defaults...'
 ./macsettings.sh
 
 echo 'Installing stuff w/ homebrew...'
+echo '  (If prompted for password, use system password)'
 brew bundle install
 brew update
 brew upgrade
