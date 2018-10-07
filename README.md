@@ -30,9 +30,17 @@ brew cask uninstall <program>
 
 ```bash
 git submodule add https://github.com/<user_name>/<repo_name> dotfiles/vim/bundle/<repo_name>
+git submodule update --init --remote --recursive
 ```
 
 ## Removing a vim plugin
 ```bash
-git rm dotfiles/vim/bundle/<repo>
+git submodule deinit -f dotfiles/vim/bundle/<repo_name>
+rm -rf .git/modules/dotfiles/vim/bundle/<repo_name>
+git rm -f dotfiles/vim/bundle/<repo_name>
 ```
+
+## Plugin notes
+* vim-colorschemes: due to some weirdness with the original
+  flazz/vim-colorschemes repo, we are using the forked jsatk/vim-colorschemes
+  repo
