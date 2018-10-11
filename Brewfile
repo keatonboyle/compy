@@ -7,6 +7,8 @@ brew 'vim'
 brew 'python'
 brew 'python@2'
 brew 'tree'
+brew 'zsh'
+brew 'zsh-completions'
 
 cask 'google-chrome'
 cask 'iterm2'

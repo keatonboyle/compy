@@ -27,5 +27,8 @@ brew doctor
 echo 'Logging into various tools to get dev environment ready...'
 ./login_to_tools.sh
 
+echo 'Setting zsh as default shell...'
+chsh -s /usr/local/bin/zsh  # This uses homebrew's installation of zsh.
+
 echo "If you're setting things up for the first time, don't forget to review"
 echo 'manual_setup.md for non-automated installations.'
