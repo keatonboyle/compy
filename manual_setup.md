@@ -6,8 +6,8 @@ and installations steps are summarized here.
 
 ## Audacity Installation
 
-Download [here](https://www.fosshub.com/Audacity.html). Audacity supposed cannot
-be downloaded automatically, see 
+Download [here](https://www.fosshub.com/Audacity.html). Audacity supposedly
+cannot be downloaded automatically, see 
 <https://github.com/Homebrew/homebrew-cask/pull/27517>.
 
 You may also need to download FFmpeg and LAME converters. TODO- see if this
