@@ -1,7 +1,6 @@
 brew 'firebase-cli'
 brew 'npm'
 brew 'tmux'
-brew 'vim'
 brew 'python'
 brew 'python@2'
 brew 'tree'
